@@ -1,7 +1,5 @@
 #include "catch_amalgamated.hpp"
-#include "chapter.h"
-#include "author.h"
-#include "article.h"
+#include "chapter.cpp"
 #include <iostream>
 
 TEST_CASE("Chapter default constructor initializes with default values", "[constructor]") {
